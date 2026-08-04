@@ -88,3 +88,19 @@ This lab simulates the type of Active Directory environment commonly found in en
 - PowerShell automation
 - Security auditing
 - Windows Event Log monitoring
+- ## Enterprise Lab Architecture
+
+The lab consists of:
+
+- Windows Server 2022 Domain Controller
+- Active Directory Domain Services
+- DNS Server
+- Windows 11 Domain Joined Workstation
+- Hyper-V Virtual Switch
+- Private Virtual Network (10.10.10.0/24)
+
+### Architecture Diagram
+
+![Enterprise Active Directory Architecture](diagrams/enterprise-active-directory-architecture.png)
+
+---
